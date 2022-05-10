@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.App {
+  max-width: 100%;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  height: 2.5rem;
+  padding: 2%;
+  background-color: rgb(0, 0, 172);
+  color: #fff;
+}
+
+.logo {
+  margin-right: 20%;
+  font-size: 1.8em;
+  color: #fff;
+}
+
+.space {
+  margin: 0 3% 0 3%;
+  color: #fff;
+  font-size: 1.2em;
+}
+
+.teamyx {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.group {
+  display: grid;
+  grid-template-columns: 100%;
+}
+
+.groupx {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 100%;
+}
+
+.img {
+  background-image: url(./components/images/first.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  padding-bottom: 8%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sec {
+  background-image: url(./components/images/sec.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 5%;
+}
+
+.title {
+  color: rgb(54, 51, 51);
+  margin: -2% auto 0 auto;
+  width: 70%;
+  padding: 1%;
+  text-align: center;
+  background-color: aliceblue;
+}
+
+.search {
+  width: 80%;
+  padding: 0.5%;
+  margin: 3% auto 2% auto;
+  border-radius: 5px;
+}
+
+.third {
+  background-image: url(./components/images/third.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+@media only screen and (min-width: 992px) {
+  .group {
+    grid-template-columns: 50% 50%;
+  }
+
+  .groupx {
+    grid-template-columns: 45% 50%;
+  }
+}
