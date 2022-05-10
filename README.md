@@ -31,4 +31,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](https://github.com/Azonkeu/spacex/blob/main/LICENSE) licensed.
+This project is [MIT](https://github.com/Azonkeu/league_expert/blob/main/LICENSE) licensed.
